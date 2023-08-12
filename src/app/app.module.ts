@@ -9,9 +9,7 @@ import { SiteHeaderComponent } from './site-header/site-header.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { AppRoutingModule } from './app-routing.module';
-import { SignInComponent } from '_course-resources/user/sign-in/sign-in.component';
 import { FormsModule } from '@angular/forms';
-import { TemplateFormControlsComponent } from '_course-resources/template-form-controls/template-form-controls.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +18,7 @@ import { TemplateFormControlsComponent } from '_course-resources/template-form-c
     SiteHeaderComponent,
     ProductDetailsComponent,
     CatalogComponent,
-    CartComponent,
-    SignInComponent,
-    TemplateFormControlsComponent
+    CartComponent
   ],
   imports: [
     BrowserModule,
